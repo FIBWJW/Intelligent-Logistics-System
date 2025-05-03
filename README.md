@@ -1,2 +1,2 @@
 # Intelligent-Logistics-System
-一个基于SpringBoot框架，建立了离线数据仓库，数据可视化的智慧物流管理系统
+一套智慧物流管理系统的前后端分离项目，实现物流订单管理、运输调度、仓储监控及数据可视化分析。系统采springboot架构，结合Flink+spark实时计算优化物流数据处理效率，并通过Vue3+ECharts实现动态可视化看板，提升企业物流管理智能化水平。
