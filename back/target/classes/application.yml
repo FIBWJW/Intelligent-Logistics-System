@@ -1,0 +1,26 @@
+server:
+  port: 9009
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lyzTestzhu
+    username: root
+    password: 1234
+
+  redis:
+    host: localhost
+    port: 6379
+    password:
+    timeout: 10000
+
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+
