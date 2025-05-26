@@ -16,6 +16,9 @@ module.exports = defineConfig({
     ]
   },
   devServer: {
+    client: {
+      overlay: false,
+    },
     port: 8080,
     proxy: {
       '/api': {
